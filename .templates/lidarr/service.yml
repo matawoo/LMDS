@@ -9,6 +9,6 @@
     volumes:
       - ./volumes/lidarr/config:/config
       - ./media/music:/music
-      - ./downloads:/downloads
+      - ./media/downloads:/downloads
     ports:
       - 8686:8686
