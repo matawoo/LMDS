@@ -47,7 +47,7 @@ Static IP address is not absolutely necessary just to try the project and find o
 <pre><code>sudo apt-get install git</code></pre>
 
 - Clone the repository with:
-<pre><code>git clone https://github.com/GreenFrogSB/LMDS.git ~/LMDS</code></pre>
+<pre><code>git clone https://github.com/matawoo/LMDS.git ~/LMDS</code></pre>
 
 <i>Do not change name of the folder on your local system it should stay as is for the script to work properly</i>
 
