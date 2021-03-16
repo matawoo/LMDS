@@ -8,8 +8,8 @@
       - UMASK_SET=022 #optional
     volumes:
       - ./volumes/bazarr/config:/config
-      - ./media/movies:/movies
-      - ./media/tvshows:/tv
+      - ./svr/media/movies:/movies
+      - ./svr/media/tvshows:/tv
     ports:
       - 6767:6767
     restart: unless-stopped
