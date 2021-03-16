@@ -7,8 +7,8 @@
       - TZ=Europe/London
     volumes:
       - ./volumes/sabnzbd/config:/config
-      - ./downloads:/downloads
-      - ./downloads/incomplete-downloads:/incomplete-downloads #optional
+      - ./media/downloads:/downloads
+      - ./media/downloads/incomplete-downloads:/incomplete-downloads #optional
     ports:
       - 8080:8080
       - 9090:9090
