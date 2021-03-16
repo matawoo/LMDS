@@ -9,7 +9,7 @@
     volumes:
       - ./volumes/radarr/config:/config
       - ./media/movies:/movies
-      - ./downloads:/downloads
+      - ./media/downloads:/downloads
     ports:
       - 7878:7878
     restart: unless-stopped
