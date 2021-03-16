@@ -9,7 +9,7 @@
       # - RUN_OPTS=<run options here> #optional
     volumes:
       - ./volumes/jackett/config:/config
-      - ./media/downloads
+      - ./media/downloads:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
